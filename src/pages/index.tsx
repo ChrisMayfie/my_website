@@ -33,12 +33,15 @@ export default function Home() {
         </div>
         <div className="flex space-x-10">
           <div>
-            <a href="https://github.com/ChrisMayfie?tab=repositories">
+            <a
+              href="https://github.com/ChrisMayfie?tab=repositories"
+              target="_blank"
+            >
               <Image src={img1} alt="My GitHub" className="h-10 w-10" />
             </a>
           </div>
           <div>
-            <a href="https://linkedin.com/in/chrismayfie">
+            <a href="https://linkedin.com/in/chrismayfie" target="_blank">
               <Image src={img2} alt="My LinkedIn" className="h-10 w-10" />
             </a>
           </div>
