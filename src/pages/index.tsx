@@ -18,7 +18,7 @@ export default function Home() {
         </div>
         <div>
           <h1 className="mb-8 items-center text-xl font-bold text-white">
-            Student | Software Engineer | Adventure Seeker
+            CS Student | Software Engineer | Adventure Seeker
           </h1>
         </div>
         <div>
@@ -28,14 +28,29 @@ export default function Home() {
         </div>
         <div>
           <h1 className="mb-8 items-center text-base font-extralight text-white">
-            Computer Science, Back End Development, and Data Science
+            Front End Development, Back End Development, and Data Science
           </h1>
         </div>
         <div>
           <h1 className="mb-8 items-center text-base font-bold text-white">
-            Projects:
+            Projects & Socials:
           </h1>
         </div>
+        <a
+          href="#"
+          className="group mx-auto mb-8 block max-w-xs space-y-3 rounded-lg bg-white p-6 shadow-lg ring-1 ring-slate-900/5 hover:bg-sky-500 hover:ring-sky-500"
+        >
+          <div className="flex items-center space-x-3">
+            <h3 className="text-sm font-semibold text-slate-900 group-hover:text-white">
+              Onnatank - TS, React, MySQL
+            </h3>
+          </div>
+          <p className="text-sm text-slate-500 group-hover:text-white">
+            Onnatank is a simple web based tool that allows a user to enter
+            their vehicle's information as well as a location to see how far
+            they can travel "On(n)-a-tank" of gas.
+          </p>
+        </a>
         <div className="flex space-x-10">
           <div>
             <a
