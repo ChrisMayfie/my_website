@@ -47,8 +47,8 @@ export default function Home() {
           </div>
           <p className="text-sm text-slate-500 group-hover:text-white">
             Onnatank is a simple web based tool that allows a user to enter
-            their vehicle's information as well as a location to see how far
-            they can travel "On(n)-a-tank" of gas.
+            their vehicle&apos;s information as well as a location to see how
+            far they can travel &quot;On(n)-a-tank&quot; of gas.
           </p>
         </a>
         <div className="flex space-x-10">
