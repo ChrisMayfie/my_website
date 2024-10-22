@@ -28,7 +28,12 @@ export default function Home() {
         </div>
         <div>
           <h1 className="mb-8 items-center text-base font-extralight text-white">
-            Computer Science, Artificial Intelligence, and Data Science
+            Computer Science, Back End Development, and Data Science
+          </h1>
+        </div>
+        <div>
+          <h1 className="mb-8 items-center text-base font-bold text-white">
+            Projects:
           </h1>
         </div>
         <div className="flex space-x-10">
