@@ -37,7 +37,8 @@ export default function Home() {
           </h1>
         </div>
         <a
-          href="#"
+          href="https://www.onnatank.com/"
+          target="_blank"
           className="group mx-auto mb-8 block max-w-xs space-y-3 rounded-lg bg-white p-6 shadow-lg ring-1 ring-slate-900/5 hover:bg-sky-500 hover:ring-sky-500"
         >
           <div className="flex items-center space-x-3">
