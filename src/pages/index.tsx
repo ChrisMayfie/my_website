@@ -37,6 +37,22 @@ export default function Home() {
           </h1>
         </div>
         <a
+          href="https://trading-simulator-3gbtpvahktdgkgxwqojvdv.streamlit.app/"
+          target="_blank"
+          className="group mx-auto mb-8 block max-w-xs space-y-3 rounded-lg bg-white p-6 shadow-lg ring-1 ring-slate-900/5 hover:bg-sky-500 hover:ring-sky-500"
+        >
+          <div className="flex items-center space-x-3">
+            <h3 className="text-sm font-semibold text-slate-900 group-hover:text-white">
+              Onnatank - Python, Streamlit, Pandas
+            </h3>
+          </div>
+          <p className="text-sm text-slate-500 group-hover:text-white">
+            A Python-based backtesting simulator that runs and compares two
+            classic algorithmic trading strategies: momentum and mean reversion,
+            using real-world historical stock data.
+          </p>
+        </a>
+        <a
           href="https://www.onnatank.com/"
           target="_blank"
           className="group mx-auto mb-8 block max-w-xs space-y-3 rounded-lg bg-white p-6 shadow-lg ring-1 ring-slate-900/5 hover:bg-sky-500 hover:ring-sky-500"
