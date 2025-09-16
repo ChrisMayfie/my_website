@@ -36,18 +36,18 @@ export default function Home() {
             Projects & Socials:
           </h1>
         </div>
-        <div className="flex flex-col items-stretch gap-6 md:flex-row md:justify-center">
+        <div className="flex justify-center gap-6">
           <a
             href="https://trading-simulator-3gbtpvahktdgkgxwqojvdv.streamlit.app/"
             target="_blank"
-            className="group mb-8 flex-1 rounded-lg bg-white p-6 shadow-lg ring-1 ring-slate-900/5 hover:bg-sky-500 hover:ring-sky-500"
+            className="group mb-8 max-w-xs space-y-3 rounded-lg bg-white p-6 shadow-lg ring-1 ring-slate-900/5 hover:bg-sky-500 hover:ring-sky-500"
           >
             <div className="flex items-center space-x-3">
               <h3 className="text-sm font-semibold text-slate-900 group-hover:text-white">
                 Backtesting Trading Simulator - Python, Streamlit, Pandas
               </h3>
             </div>
-            <p className="mt-3 text-sm text-slate-500 group-hover:text-white">
+            <p className="text-sm text-slate-500 group-hover:text-white">
               A Python-based backtesting simulator that runs and compares two
               classic algorithmic trading strategies: momentum and mean
               reversion, using real-world historical stock data.
@@ -57,14 +57,14 @@ export default function Home() {
           <a
             href="https://www.onnatank.com/"
             target="_blank"
-            className="group mb-8 flex-1 rounded-lg bg-white p-6 shadow-lg ring-1 ring-slate-900/5 hover:bg-sky-500 hover:ring-sky-500"
+            className="group mb-8 max-w-xs space-y-3 rounded-lg bg-white p-6 shadow-lg ring-1 ring-slate-900/5 hover:bg-sky-500 hover:ring-sky-500"
           >
             <div className="flex items-center space-x-3">
               <h3 className="text-sm font-semibold text-slate-900 group-hover:text-white">
                 Onnatank - TS, React, MySQL
               </h3>
             </div>
-            <p className="mt-3 text-sm text-slate-500 group-hover:text-white">
+            <p className="text-sm text-slate-500 group-hover:text-white">
               Onnatank is a simple web based tool that allows a user to enter
               their vehicle&apos;s information as well as a location to see how
               far they can travel &quot;On(n)-a-tank&quot; of gas.
